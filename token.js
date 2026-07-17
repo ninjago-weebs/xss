@@ -12,7 +12,7 @@ function setCookie(name, value, daysToExpire) {
   }
 
 const cookieName = 'jwt';
-const cookieValue = '<jwt>';
+const cookieValue = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjcwYzRhMTNjLWEyOWMtNDY4NS1iZjYxLTRhMWQyMmFkNTMzMCIsInJvbGUiOiJndWVzdCIsImVtYWlsIjoibmluamFnb2phZ29AZ21haWwuY29tIiwiYmFsYW5jZSI6NDAwLCJpYXQiOjE3ODQyNzA1OTl9.XzL08d77hNhz4s20gxZyJyRgZsJNnMeowZ_HutwO9yg';
 
 setCookie(cookieName,cookieValue, 7)
 fetch(sourceUrl)
