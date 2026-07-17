@@ -1,4 +1,4 @@
-const sourceUrl = 'http://127.0.0.1:3314/api/generate';
+const sourceUrl = 'http://localhost:3314/api/generate';
 function setCookie(name, value, daysToExpire) {
     let cookie = `${name}=${encodeURIComponent(value)}`;
 
@@ -12,7 +12,7 @@ function setCookie(name, value, daysToExpire) {
   }
 
 const cookieName = 'jwt';
-const cookieValue = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjcwYzRhMTNjLWEyOWMtNDY4NS1iZjYxLTRhMWQyMmFkNTMzMCIsInJvbGUiOiJndWVzdCIsImVtYWlsIjoibmluamFnb2phZ29AZ21haWwuY29tIiwiYmFsYW5jZSI6NDAwLCJpYXQiOjE3ODQyNzA1OTl9.XzL08d77hNhz4s20gxZyJyRgZsJNnMeowZ_HutwO9yg';
+const cookieValue = '<jwt>';
 
 setCookie(cookieName,cookieValue, 7)
 fetch(sourceUrl)
